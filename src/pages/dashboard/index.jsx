@@ -98,7 +98,28 @@ const Dashboard = () => {
               </Row>
             </Col>
             <Col xs={12} sm={6} md={3}>
-              <h3>col2</h3>
+              <Box p-3>
+                <Box borderLeft={"1px solid #ccc"} p-2>
+                  <Stack
+                    sx={{
+                      padding: "8px",
+                      alignItems: "center",
+                      borderBottom: "1px solid #ccc",
+                    }}
+                  >
+                    <img
+                      src={Profile}
+                      style={{ width: "100px", borderRadius: "50%" }}
+                    />
+                    <Typography pb-6>Hi, welcome, Leonard.</Typography>
+                    <hr></hr>
+                  </Stack>
+                  <Stack sx={{ alignItems: "center", padding: "2px" }}>
+                    RECENT NOTIFICATIONS
+                    <Typography variant="subtitle2"></Typography>
+                  </Stack>
+                </Box>
+              </Box>
             </Col>
           </Row>
           <Row container={"true"}>
