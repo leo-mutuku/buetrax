@@ -10,6 +10,7 @@ import DateResponsiveWrapper from "../../components/form/DateResponsiveWrapper";
 import PieChart from "../../components/charts/PieChart";
 import SearchIcon from "@mui/icons-material/Search";
 import AreaLineChart from "../../components/charts/AreaLineChart";
+import ComboBox from "../../components/form/ComboBox";
 
 const Analytics = () => {
   return (
@@ -26,6 +27,12 @@ const Analytics = () => {
               >
                 Analytics
               </Typography>
+              <Typography>
+                Simple form with Autocomplete select input
+              </Typography>
+              <Stack direction={"row"}>
+                <ComboBox />
+              </Stack>
             </Col>
             <Col xs={12} sm={6} md={3}>
               <Box p-3>
