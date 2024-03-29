@@ -13,7 +13,10 @@ const DateResponsiveWrapper = () => {
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DemoContainer components={["DesktopDatePicker"]}>
         <DemoItem>
-          <DesktopDatePicker defaultValue={dayjs("2024-03-28")} />
+          <DesktopDatePicker
+            slotProps={{ textField: { size: "small" } }}
+            defaultValue={dayjs("2024-03-28")}
+          />
         </DemoItem>
       </DemoContainer>
     </LocalizationProvider>

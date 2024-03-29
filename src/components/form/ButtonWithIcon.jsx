@@ -4,7 +4,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 
 import Stack from "@mui/material/Stack";
 
-const SearchButtonWrapper = () => {
+const ButtonWithIcon = () => {
   return (
     <Stack direction="row" spacing={0}>
       <Button
@@ -14,6 +14,7 @@ const SearchButtonWrapper = () => {
           mt: 2,
           backgroundColor: "rgba(14, 54, 141, 0.99)",
         }}
+        endIcon={<DeleteIcon />}
       >
         Go Track
       </Button>
@@ -21,4 +22,4 @@ const SearchButtonWrapper = () => {
   );
 };
 
-export default SearchButtonWrapper;
+export default ButtonWithIcon;

@@ -11,18 +11,22 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",
+    "@internationalized/date": "^3.0.0-nightly.2967",
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
     "@mui/styled-engine": "^5.15.14",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@mui/x-charts": "^7.0.0",
     "@mui/x-date-pickers": "^7.0.0",
+    "@wojtekmaj/react-datetimerange-picker": "^5.5.0",
     "bootstrap": "^5.3.3",
     "dayjs": "^1.11.10",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
+    "react-bootstrap-daterangepicker": "^8.0.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
+    "rsuite": "^5.58.1",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
